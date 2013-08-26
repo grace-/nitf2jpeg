@@ -12,9 +12,11 @@ The block indices found on the DVDs are corrupted and are recalculated with the 
 This code is capable to converting all r-sets to JPEG format on the Greene 07 data set.  It is untested for other nitf files but should work fine, as it just does search/fix for indexing errors.
 
 Compile: 
+	 
 	 cmake .
 	 make	 
 
 Usage:
-	 nitf2jpeg <filename_in.pgm.r0> <filename_out.jpg OPTIONAL>
+	 
+	 ./nitf2jpeg <filename_in.pgm.r0> <filename_out.jpg OPTIONAL>
 
